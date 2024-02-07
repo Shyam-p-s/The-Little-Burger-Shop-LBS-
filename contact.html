@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author"  content="Shyam P Sasidharan">
+    <meta name="description" content="Contact page for the Little Burger Shop">
+    <title>Contact Us - LBS</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <nav>
+        <h1>Contact Us</h1>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/#about">About LBS</a></li>
+            <li><a href="/#menu">Our Menu</a></li>
+            <li><a href="hours.html">Store Hours</a></li>
+        </ul>
+
+        <figure>
+            <img src="images/pexels-valeria-boltneva-1639557.jpg" alt="Tasty Burger"
+            title="Tasty Burger" width="455" height="303">
+            <figcaption>Tasty Burger</figcaption>
+        </figure>
+        </nav>
+ </header>
+ <main>
+    <article id="contactForm">
+        <h1>Our Contact Form</h1>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Send us a message</legend>
+                <p>
+                    <label for="name">Name : </label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </p>
+                <p>
+                    <label for="email">Email : </label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </p>
+                <p>
+                    <label for="message">Your message : </label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="10"
+                    placeholder="Type your message here"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </p>
+            </fieldset>
+        </form>
+    </article>
+    <article>
+        <h1>Our Location</h1>
+        <p>
+            <address>
+                Little Burger Shop, Varapuzha, Kochi,<br>
+                PIN: 683517 <br>
+                Phone: <a href="tel:+4445556871">444-555-6871</a>
+            </address>
+        </p>
+    </article>
+
+    <p><a href="#">Back to top</a></p>
+ </main>
+ <hr>
+ <footer>
+    <p>Copyright &#169; The Little Burger Shop</p>
+ </footer>
+</body>
+</html>
